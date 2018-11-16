@@ -1,0 +1,8 @@
+node_modules/
+docs/
+dist/
+dist-*/
+.editorconfig
+npm-debug.log
+src/DeploymentScripts/temp/
+.vscode/launch.json

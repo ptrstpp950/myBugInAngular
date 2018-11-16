@@ -1,0 +1,6 @@
+<div class="form-group">
+    <ul class="ui-select-list">
+      <li [attr.name]="item.id" *ngFor="let item of data | filter : qModel" innerHtml="{{ 'AAA' | translate }}"></li>
+    </ul>
+</div>
+

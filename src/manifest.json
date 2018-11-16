@@ -1,0 +1,9 @@
+{
+	"short_name": "Test",
+	"name": "Test",
+
+	"background_color": "#eeeeee",
+	"theme_color": "#de6356",
+	"display": "fullscreen",
+	"gcm_sender_id": "103953800507"
+}

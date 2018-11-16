@@ -1,0 +1,36 @@
+{
+  "angularCompilerOptions": {
+    "enableIvy": true
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "allowJs": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@app/services/*": [
+        "app/services/*"
+      ],
+      "@ncbir/*": [
+        "app/ncbir/*"
+      ],
+      "@app/*": [
+        "app/*"
+      ]
+    },
+    "module": "es2015"
+  }
+}
